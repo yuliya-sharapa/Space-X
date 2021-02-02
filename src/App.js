@@ -1,14 +1,14 @@
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import './style.css';
 
 function App() {
   return (
-    <div className="App">
-      
-        
-        <p>
-          Space X
-        </p>
-        
-    </div>
+    <>
+      <Header />
+      <Main />
+    </>
+    
   );
 }
 
